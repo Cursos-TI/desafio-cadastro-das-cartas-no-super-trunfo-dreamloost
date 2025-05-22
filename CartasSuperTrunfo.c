@@ -14,76 +14,48 @@ int main(){
 	
 	// Inserção dos dados da primeira carta
 		
-	//Inserção do Estado
-	
 	printf("\nInsira o Estado da primeira carta:\n");
 	scanf(" %3s", &estado1);
 				
-	//Inserção do código
-		
 	printf("\nInsira o Código da primeira carta:\n");
 	scanf(" %2s", &cod_carta1);
-	
-	//Inserção da cidade
 	 
 	printf("\nInsira o nome da primeira carta:\n");
 	scanf(" %[^\n]", nome_cidade1);
     getchar();
 
-	//Inserção da população
-	
 	printf("\nInsira a população da primeira carta:\n");
 	scanf(" %d", &populacao1);
 	
-	//Inserção da área
-		
 	printf("\nInsira a área da primeira carta:\n");
 	scanf(" %f", &area1);
 					
-	//Inserção do PIB
-	
 	printf("\nInsira o PIB da primeira carta:\n");
 	scanf(" %f", &pib1);
 			
-	//Inserção dos Pontos Turísticos
-
 	printf("\nInsira o número de pontos turísticos da primeira carta:\n");
 	scanf(" %d", &p_turisticos1);
 	
 	// Inserção dos dados da Segunda carta
 	
-	//Inserção do Estado
-	
 	printf("\nInsira o Estado da segunda carta:\n");
 	scanf(" %3s", &estado2);
 	
-	//Inserção do código
-	
 	printf("\nInsira o Código da segunda carta:\n");
 	scanf(" %2s", &cod_carta2);
-	
-	//Inserção da cidade
 	
 	printf("\nInsira o nome da segunda carta:\n");
 	scanf(" %[^\n]", nome_cidade2);
     getchar();
 	
-	//Inserção da população
-	
 	printf("\nInsira a população da segunda carta:\n");
 	scanf(" %d", &populacao2);
-	
-	//Inserção da área
 	
 	printf("\nInsira a área da segunda carta:\n");
 	scanf(" %f", &area2);
 	
-	//Inserção do PIB
-	
 	printf("\nInsira o PIB da segunda carta:\n");
 	scanf(" %f", &pib2);
-	
-	//Inserção dos Pontos Turísticos
 	
 	printf("\nInsira o número de pontos turísticos da segunda carta:\n");
 	scanf(" %d", &p_turisticos2);
