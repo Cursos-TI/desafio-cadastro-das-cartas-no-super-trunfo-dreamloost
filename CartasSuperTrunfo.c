@@ -15,10 +15,10 @@ int main(){
 	// Inserção dos dados da primeira carta
 		
 	printf("\nInsira o Estado da primeira carta:\n");
-	scanf(" %3s", &estado1);
+	scanf(" %3s", estado1);
 				
 	printf("\nInsira o Código da primeira carta:\n");
-	scanf(" %2s", &cod_carta1);
+	scanf(" %2s", cod_carta1);
 	 
 	printf("\nInsira o nome da primeira carta:\n");
 	scanf(" %[^\n]", nome_cidade1);
@@ -39,10 +39,10 @@ int main(){
 	// Inserção dos dados da Segunda carta
 	
 	printf("\nInsira o Estado da segunda carta:\n");
-	scanf(" %3s", &estado2);
+	scanf(" %3s", estado2);
 	
 	printf("\nInsira o Código da segunda carta:\n");
-	scanf(" %2s", &cod_carta2);
+	scanf(" %2s", cod_carta2);
 	
 	printf("\nInsira o nome da segunda carta:\n");
 	scanf(" %[^\n]", nome_cidade2);
